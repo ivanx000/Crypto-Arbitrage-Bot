@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build output
+/build/
+/out/
+/bin/
+/lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+DartConfiguration.tcl
+*.cmake.user
+CMakeUserPresets.json
+
+# Generated dependency trees (FetchContent, CPM, etc.)
+_deps/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and runtime output
+*.log
+trades.log
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.prof
+*.profraw
+*.profdata
+
+# Archives and binaries
+*.a
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+*.der
+
+# Python caches (in case local scripts are added)
+__pycache__/
+*.pyc
